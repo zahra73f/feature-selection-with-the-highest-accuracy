@@ -19,8 +19,8 @@ Feature Relevancy (CFR) is proposed.
 
 
 ## Algorithms
-All the algorithms are explained in [Efficient kNN Classification With Different
-Numbers of Nearest Neighbors](./article.pdf) and summarize as follow:
+The algorithms are explained in [Feature selection considering the 
+composition of feature relevancy](./paper.pdf) and summarize as follow:
 1. (Initialization) Set F ← “Original feature set of n features”, S ←“empty set”.
 2. (Calculate mutual information between the class with each candidate feature) For each 
 feature Xk ∈ F, calculate I(Xk;Y).
@@ -35,7 +35,7 @@ variables Xk and Xj such that Xk ∈ F, Xj ∈S, calculate I(Xk;Y|Xj) and I(Xk;Y
 All results (indexes of selected features in different size-0.1,0.2,0.3,0.4,0.5 of all features-) are presented in Result folder. for achieving accuracy with the selected features run the python code accuracy.py that is located in Result folder.
 <div align="center">
   <img src="./plots/p1.PNG" width="50%">
-  <img src="./plots/p2.PNG.png" width="50%">
+  <img src="./plots/p2.PNG" width="50%">
   <img src="./plots/p3.PNG" width="50%">
   
   
